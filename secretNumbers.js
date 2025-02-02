@@ -1,9 +1,9 @@
 const computer =random(1,100)
 console.log("Загадано число "+computer)
 
-search(1,100)
+game(1,100)
 
-function search(a,b){
+function game(a,b){
     console.log("--------------")
 
     console.log("Диапазон "+a+"-"+b)
